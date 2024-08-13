@@ -45,6 +45,7 @@
   </head>
   <body>
     <h1>Welcome to TechPulse</h1>
+    <div onclick="myFunction()">
     <svg
       width="350px"
       height="250px"
@@ -187,6 +188,7 @@
 
       <g id="Layer_1" />
     </svg>
+    </div>
     <form>
       <input type="text" placeholder="Full Name" />
       <br />
@@ -199,5 +201,11 @@
     </form>
 
     <p class="hidden-text">Hello screen reader user!</p>
+
+    <script>
+      function myFunction() {
+        alert("Ouch!");
+      }
+    </script>
   </body>
 </html>
